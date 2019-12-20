@@ -58,7 +58,7 @@ def weather():
     
 
 
-    api_key = 'bf5d2ca68d5cba107e1017360c1e80d9'
+    api_key = {api_key}
     locate = city
  
     #api_key = get_api_key()
