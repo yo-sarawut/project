@@ -8,7 +8,7 @@ from datetime import date
 import sys 
 
 def daily_openweather(location):
-    api_key = [API KEY]
+    api_key = [API_KEY]
     url = "http://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid={}".format(location, api_key)
     r = requests.get(url)
     
